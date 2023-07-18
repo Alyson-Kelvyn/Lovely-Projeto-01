@@ -1,0 +1,157 @@
+:root {
+    --cor-01: (#ecadb8);
+    --cor-02: (#c6e5f9);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* CABEÇALHO */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #c6e5f9;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.esquerda img{
+    margin-left: 60px;
+    width: 100px;
+    height: 100px;
+}
+
+.meio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.meio li{
+    padding: 38px;
+    list-style: none;
+}
+
+.meio li:hover{
+    background-color: #ecadb8;
+    font-weight: bolder;
+    color: black;
+}
+
+.meio li a{
+    text-decoration: none;
+}
+
+.direita{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 80px;
+}
+
+.direita input{
+    background-color: rgb(249, 249, 249);
+    color: rgb(16, 16, 16);;
+    border-radius: 50px;
+    border: none;
+    padding: 0px 16px;
+    width: 235px;
+    height: 46px;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.search-icon{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    margin-left: -42px;
+    transition: all 200ms ease 0s;
+    cursor: pointer;
+}
+
+.direita .link{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-left: 30px;
+}
+
+
+
+/* CATEGORIAS */
+.conteudo{
+    display: flex;
+}
+
+section{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 50px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.048);
+    height: 500px;
+}
+
+.conteudo section ul h3{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+.conteudo section ul li{
+    list-style: none;
+    padding: 20px 0px;
+}
+
+.conteudo section ul li:hover{
+    background-color: #ecadb8;
+    color: black;
+    text-align: center;
+}
+
+.conteudo section ul li a{
+    text-decoration: none;
+}
+
+
+/* PRODUTOS */
+.todos-produtos {
+    display: inline-block; 
+}
+
+.todos-produtos h2{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.conteudo img{
+    display: flex;
+}
+
+.produtos ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.produtos ul li img{
+    padding-top: 20px;
+    width: 300px;
+    height: 300px;
+}
+
+.produtos ul li p{
+    text-align: center;
+}
